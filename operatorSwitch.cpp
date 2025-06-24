@@ -12,9 +12,9 @@ int main()
     cout << "enter the operator: ";
     char op;
     cin >> op;
-    if (op = '+')
+    if (op == '+')
         cout << first + second;
-    else if (op = '-')
+    else if (op == '-')
         cout << first - second;
     else
         cout << "invalid operator!";
