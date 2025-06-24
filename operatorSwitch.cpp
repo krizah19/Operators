@@ -12,15 +12,10 @@ int main()
     cout << "enter the operator: ";
     char op;
     cin >> op;
-    switch (op)
-    {
-    case '+':
+    if (op = '+')
         cout << first + second;
-        break;
-    case '-':
+    else if (op = '-')
         cout << first - second;
-        break;
-    default:
+    else
         cout << "invalid operator!";
-    }
 }
